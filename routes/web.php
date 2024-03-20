@@ -29,5 +29,8 @@ Route::get('/buku_tamu', function () {
 Route::get('/produk', function () {
     return view('produk');
 });
+Route::get('/biodata', function () {
+    return view('biodata');
+});
 
 
